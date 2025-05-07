@@ -1,0 +1,13 @@
+# Python
+env/
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Node / React
+node_modules/
+build/
+.env
+
+# macOS
+.DS_Store
