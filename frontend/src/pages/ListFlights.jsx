@@ -1,4 +1,4 @@
-
+// File: frontend/src/pages/ListFlights.jsx
 
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -10,15 +10,15 @@ export default function ListFlights() {
 
   useEffect(() => {
     getFlights()
-      .then(response => setFlights(response.data))
-      .catch(error => console.error('Failed to fetch flights:', error));
+      .then(res => setFlights(res.data))
+      .catch(err => console.error('Failed to fetch flights:', err));
   }, []);
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Liste des vols disponibles</h1>
+      <h1 className="text-2xl font-bold mb-4">List of available flights</h1>
       {flights.length === 0 ? (
-        <p>Aucun vol disponible pour le moment.</p>
+        <p>No flights available at the moment.</p>
       ) : (
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {flights.map(flight => (
@@ -26,13 +26,15 @@ export default function ListFlights() {
               <h2 className="text-xl font-semibold">
                 {flight.route.departure} → {flight.route.arrival}
               </h2>
-              <p>Date: {flight.date}</p>
-              <p>Départ: {flight.departure_time} - Arrivée: {flight.arrival_time}</p>
+              <p>Date : {flight.date}</p>
+              <p>
+                Departure : {flight.departure_time} – Arrival : {flight.arrival_time}
+              </p>
               <button
-                className="mt-2 px-4 py-2 rounded-lg shadow hover:shadow-md"
+                className="mt-2 px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700"
                 onClick={() => navigate(`/book/${flight.id}`)}
               >
-                Réserver
+                Book
               </button>
             </li>
           ))}

@@ -12,6 +12,8 @@ from .views.payment_viewset import PaymentViewSet
 from .views.luggage_viewset import LuggageViewSet
 from .views.review_viewset import ReviewViewSet
 from .views.employee_action_viewset import EmployeeActionViewSet
+from flights.views.booking_viewset import BookingViewSet
+
 
 router = DefaultRouter()
 router.register(r'routes', RouteViewSet, basename='route')
@@ -29,3 +31,8 @@ router.register(r'reviews', ReviewViewSet, basename='review')
 router.register(r'employee-actions', EmployeeActionViewSet, basename='employeeaction')
 
 urlpatterns = router.urls
+
+
+
+
+

@@ -1,0 +1,537 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-05-07T21:17:55.126Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "London → New Delhi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-05-07T21:21:49.984Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "London → New Delhi on 2025-04-01",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-05-07T21:27:45.073Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Manchester → Karachi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-05-07T21:28:04.529Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Birmingham → Paris",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-05-07T21:28:23.533Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "New York → Beijing",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-05-07T21:28:42.913Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Istanbul → Riyad",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-05-07T21:28:57.972Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "London → Abuja",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-05-07T21:50:01.591Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "Economy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-05-07T21:50:12.686Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Business",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-05-07T21:50:18.208Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "First",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-05-07T21:56:57.129Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Economy - 300",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-05-07T21:57:37.424Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "Business - 500",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-05-07T21:57:45.724Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "3",
+    "object_repr": "First - 1000",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-05-07T22:18:12.924Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Manchester → Karachi on 2025-05-07",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-05-07T22:19:15.697Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "4",
+    "object_repr": "Economy - 500",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-05-07T22:19:45.804Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "5",
+    "object_repr": "Business - 900",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-05-07T22:20:02.531Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "First - 1500",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-05-07T22:21:29.507Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "First - 1500.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-05-07T22:21:29.507Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "5",
+    "object_repr": "Business - 900.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-05-07T22:21:29.507Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "4",
+    "object_repr": "Economy - 500.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-05-08T17:37:06.767Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "London → Abuja on 2025-05-08",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$zxORGSA15e3P1BuDwK58Rg$soV5nJjdcIgQLv4ObyxoyHSMg7RkeZPA92rE8/NDaRI=",
+    "last_login": "2025-05-08T17:11:19.539Z",
+    "is_superuser": true,
+    "username": "bryan",
+    "first_name": "",
+    "last_name": "",
+    "email": "chrisalexandre94@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-05-07T18:22:46.705Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gdjcqkre0mjgvftdyh6mj5bazu99k7yk",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFQ3i7d-w1kmAGpGkhKuzL-uzbpQrf3nHNfLMK21riNvMSZ2JlJdvrdEuAjtx3QHdqtc-xtXebEd4UfdPBrp_y8HO7fQYVRv_WEpihAJ9Ebh97BZMkVoSCAJmnBOmFTMplkQCEs2mICkMjag8tKI3t_AOsjOC8:1uCjjt:b8Ah9sZlM-t77Z8ZRPwTSO67YGbdUnwD1JQi_2nQ-O8",
+    "expire_date": "2025-05-21T18:43:29.195Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kj7rr8ccnygc67qtnms9c9rj6rxh5eap",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFQ3i7d-w1kmAGpGkhKuzL-uzbpQrf3nHNfLMK21riNvMSZ2JlJdvrdEuAjtx3QHdqtc-xtXebEd4UfdPBrp_y8HO7fQYVRv_WEpihAJ9Ebh97BZMkVoSCAJmnBOmFTMplkQCEs2mICkMjag8tKI3t_AOsjOC8:1uD4mF:8-SKkJaH7L_lF5Y0hw00LLanOQWLmVEbvMjog52DAwM",
+    "expire_date": "2025-05-22T17:11:19.564Z"
+  }
+},
+{
+  "model": "flights.route",
+  "pk": 1,
+  "fields": {
+    "departure": "London",
+    "arrival": "New Delhi"
+  }
+},
+{
+  "model": "flights.route",
+  "pk": 2,
+  "fields": {
+    "departure": "Manchester",
+    "arrival": "Karachi"
+  }
+},
+{
+  "model": "flights.route",
+  "pk": 3,
+  "fields": {
+    "departure": "Birmingham",
+    "arrival": "Paris"
+  }
+},
+{
+  "model": "flights.route",
+  "pk": 4,
+  "fields": {
+    "departure": "New York",
+    "arrival": "Beijing"
+  }
+},
+{
+  "model": "flights.route",
+  "pk": 5,
+  "fields": {
+    "departure": "Istanbul",
+    "arrival": "Riyad"
+  }
+},
+{
+  "model": "flights.route",
+  "pk": 6,
+  "fields": {
+    "departure": "London",
+    "arrival": "Abuja"
+  }
+},
+{
+  "model": "flights.flight",
+  "pk": 1,
+  "fields": {
+    "route": 1,
+    "date": "2025-04-01",
+    "departure_time": "06:00:00",
+    "arrival_time": "15:00:00"
+  }
+},
+{
+  "model": "flights.flight",
+  "pk": 2,
+  "fields": {
+    "route": 2,
+    "date": "2025-05-07",
+    "departure_time": "22:18:00",
+    "arrival_time": "18:00:00"
+  }
+},
+{
+  "model": "flights.flight",
+  "pk": 3,
+  "fields": {
+    "route": 6,
+    "date": "2025-05-08",
+    "departure_time": "17:37:00",
+    "arrival_time": "00:00:00"
+  }
+},
+{
+  "model": "flights.travelclass",
+  "pk": 1,
+  "fields": {
+    "name": "Economy"
+  }
+},
+{
+  "model": "flights.travelclass",
+  "pk": 2,
+  "fields": {
+    "name": "Business"
+  }
+},
+{
+  "model": "flights.travelclass",
+  "pk": 3,
+  "fields": {
+    "name": "First"
+  }
+},
+{
+  "model": "flights.price",
+  "pk": 1,
+  "fields": {
+    "flight": 1,
+    "travel_class": 1,
+    "amount": "300.00"
+  }
+},
+{
+  "model": "flights.price",
+  "pk": 2,
+  "fields": {
+    "flight": 1,
+    "travel_class": 2,
+    "amount": "500.00"
+  }
+},
+{
+  "model": "flights.price",
+  "pk": 3,
+  "fields": {
+    "flight": 1,
+    "travel_class": 3,
+    "amount": "1000.00"
+  }
+},
+{
+  "model": "flights.passenger",
+  "pk": 1,
+  "fields": {
+    "first_name": "Chris-Alexandre",
+    "last_name": "Finnon",
+    "email": "BryanChrist94@outlook.fr",
+    "passport_number": "20GF45789",
+    "phone": "7923058864"
+  }
+},
+{
+  "model": "flights.passenger",
+  "pk": 2,
+  "fields": {
+    "first_name": "Abigail",
+    "last_name": "Shina",
+    "email": "Abishina@gmail.com",
+    "passport_number": "25AS87456",
+    "phone": "77410258"
+  }
+},
+{
+  "model": "flights.passenger",
+  "pk": 3,
+  "fields": {
+    "first_name": "Malick",
+    "last_name": "Fadika",
+    "email": "fadk@gmail.com",
+    "passport_number": "19VF25789",
+    "phone": "798558456"
+  }
+},
+{
+  "model": "flights.booking",
+  "pk": 1,
+  "fields": {
+    "booking_id": "e3ba45f4-7a18-49f7-b060-5ea853d64b38",
+    "passenger": 1,
+    "flight": 1,
+    "travel_class": 3,
+    "date_booked": "2025-05-07T22:05:14.893Z",
+    "status": "CONFIRMED",
+    "total_price": "1020.00"
+  }
+},
+{
+  "model": "flights.booking",
+  "pk": 2,
+  "fields": {
+    "booking_id": "20f02d75-ccd5-4911-bd11-6a145fe25e4c",
+    "passenger": 2,
+    "flight": 2,
+    "travel_class": 2,
+    "date_booked": "2025-05-07T22:23:58.252Z",
+    "status": "CANCELLED",
+    "total_price": "520.00"
+  }
+},
+{
+  "model": "flights.booking",
+  "pk": 3,
+  "fields": {
+    "booking_id": "2abb449d-f546-4f67-bdc0-6fc25afa5a65",
+    "passenger": 3,
+    "flight": 2,
+    "travel_class": 3,
+    "date_booked": "2025-05-08T17:15:44.499Z",
+    "status": "CONFIRMED",
+    "total_price": "1020.00"
+  }
+},
+{
+  "model": "flights.pickupdropservice",
+  "pk": 1,
+  "fields": {
+    "booking": 1,
+    "service_type": "PICKUP",
+    "address": "SE10 8GS",
+    "cost": "20.00"
+  }
+},
+{
+  "model": "flights.pickupdropservice",
+  "pk": 2,
+  "fields": {
+    "booking": 2,
+    "service_type": "DROPOFF",
+    "address": "SW5 8TE",
+    "cost": "20.00"
+  }
+},
+{
+  "model": "flights.pickupdropservice",
+  "pk": 3,
+  "fields": {
+    "booking": 3,
+    "service_type": "PICKUP",
+    "address": "SE78KL5",
+    "cost": "20.00"
+  }
+}
+]
