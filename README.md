@@ -1,5 +1,7 @@
 # ABC Airline
 
+[![Quality checks](https://github.com/BryanFinnon/abc_airline/actions/workflows/quality.yml/badge.svg)](https://github.com/BryanFinnon/abc_airline/actions/workflows/quality.yml)
+
 A Django REST and React prototype modelling airline operations, bookings and passenger services.
 
 ## Features
@@ -32,7 +34,7 @@ git clone https://github.com/BryanFinnon/abc_airline.git
 cd abc_airline
 python -m venv .venv
 source .venv/bin/activate
-pip install "Django>=5.2,<5.3" "djangorestframework>=3.15,<4" "django-cors-headers>=4.4,<5"
+pip install -r requirements.txt
 
 export DJANGO_SECRET_KEY=replace-with-a-local-secret
 export DJANGO_DEBUG=True

@@ -174,8 +174,3 @@ export default function BookingForm() {
     </div>
   );
 }
-
-// Helper function outside component
-function toggleMeal(id) {
-  // This function should be defined inside component, binding setMeals
-}
