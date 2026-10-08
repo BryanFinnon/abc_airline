@@ -1,23 +1,29 @@
 # ABC Airline
 
-A full-stack airline management prototype built with Django REST Framework and React.
+A Django REST and React prototype modelling airline operations, bookings and passenger services.
 
 ## Features
 
-- Flight and route data
-- Passenger and booking workflows
-- Travel classes, luggage, meals, and pricing models
+- Routes, flights, travel classes and pricing
+- Passenger and booking management
+- Luggage and meal selections
 - Payment and pickup/drop-off service records
-- REST API serializers and viewsets
-- React pages for flight listing, booking, payment, and user bookings
+- Reviews and employee action tracking
+- REST endpoints implemented with Django REST Framework viewsets
+- React pages for flight listings, bookings, payments and user bookings
 
 ## Architecture
 
 ```text
-React frontend → Django REST API → SQLite
+React client  →  Django REST API  →  SQLite
+frontend/         backend/
 ```
 
-## Local setup
+## Technology
+
+Python · Django 5 · Django REST Framework · SQLite · React 19 · Axios
+
+## Local development
 
 ### Backend
 
@@ -26,9 +32,11 @@ git clone https://github.com/BryanFinnon/abc_airline.git
 cd abc_airline
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
-export DJANGO_SECRET_KEY="replace-with-a-local-secret"
+pip install "Django>=5.2,<5.3" "djangorestframework>=3.15,<4" "django-cors-headers>=4.4,<5"
+
+export DJANGO_SECRET_KEY=replace-with-a-local-secret
 export DJANGO_DEBUG=True
+
 cd backend
 python manage.py migrate
 python manage.py runserver
@@ -36,24 +44,16 @@ python manage.py runserver
 
 ### Frontend
 
-In another terminal:
+In a second terminal:
 
 ```bash
 cd frontend
-npm ci
+npm install
 npm start
 ```
 
-The frontend uses `http://127.0.0.1:8000/api` by default. Set `REACT_APP_API_BASE_URL` to use a different API.
-
-## Configuration
-
-See `.env.example` for the supported development variables. Production deployments must use a unique secret, `DJANGO_DEBUG=False`, restricted hosts, and restricted CORS origins.
+The frontend uses `http://127.0.0.1:8000/api` by default. Override it with `REACT_APP_API_BASE_URL`.
 
 ## Project status
 
-This is a portfolio prototype. Authentication, production payment integration, deployment configuration, and comprehensive automated testing remain future work. A few UI placeholders are intentionally retained for later implementation.
-
-## Author
-
-Bryan Finnon — MSc Computer Science (Distinction), focused on applied AI and software engineering.
+The domain models, serializers and API viewsets are implemented. Authentication, production payment processing, deployment configuration and broader automated test coverage remain future work.
